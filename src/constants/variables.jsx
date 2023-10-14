@@ -8,7 +8,3 @@ export const HOME = {
     GENRE: '/genre',
     LIST: '/list',
 }
-
-export const DETAIL = {
-
-}

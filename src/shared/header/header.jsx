@@ -79,12 +79,12 @@ function Header(props) {
                                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                                     {/* id="collapsibleNavbar"     */}
                                     <ul className="navbar-nav ms-auto me-lg-5 ">
-                                        <li className="nav-item "
+                                        <li className="nav-item m-3 m-lg-0 m-md-0" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
                                             onClick={() => nevigatHandler("movie")}
                                         >
                                             Movie
                                         </li>
-                                        <li className="nav-item "
+                                        <li className="nav-item ms-3 mb-2 mb-lg-0 mb-md-0" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
                                             onClick={() => nevigatHandler("Tv Show")}>
                                             Tv Show
                                         </li>

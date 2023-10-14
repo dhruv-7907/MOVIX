@@ -52,3 +52,9 @@
     }
 
 }
+
+.collapse {
+    &.show {
+        background-color: var(--black3);
+    }
+}
